@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div class="bg-black"></div>
+        <div class="wrapper">
+            <!--sidebar-->
+            <div class="sidebar">
+                <div class="sidebar-menu">
+                    <div class="profile">
+                        <img src="./files/nero.jpg" alt="logo">
+                        <p>Oghenero Sigbenu</p>
+                    </div>
+                    <li class="item" onclick="openCard('profile')" >
+                        <a class="menu-btn">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="item" onclick="openCard('about')">
+                        <a class="menu-btn">
+                            <i class="fas fa-folder"></i><span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="item" onclick="openCard('projects')">
+                        <a class="menu-btn">
+                            <i class="fas fa-phone"></i><span>Contact</span></a>
+                    </li>
+                    <!-- <li class="item">
+                        <a href="#" class="menu-btn">
+                            <i class="fas fa-info-circle"></i><span>About</span>
+                        </a>
+                    </li> -->
+                </div>
+            </div>
+            <!--main-container-->
+            <div class="main">
+                <div class="side"  style="color:white">
+                    <i class="fas fa-bars"  style="color:white"></i>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="card" id="profile">
+                    <div class="home">
+                        <div class="text">
+                            <div class="lef">I'm Oghenero Sigbenu.</br></div>
+                            <!-- <h3>I'm Oghenero Sigbenu.</h3> -->
+                            <h4 style="font-size: 1rem">Full Stack Engineer</h4>
+                            <p>A Software Developer with a user-centric approach to development.
+                                I love solving problems and buiding solutions.
+                            </p>
+                                <a href="https://drive.google.com/file/d/1O-bG_cwlUpKsIV8ufaCm-OJly0jdz65i/view?usp=sharing">
+                            <button>
+                                CV
+                            </button>
+                            </a>
+                        </div>
+                        <div class="profile-img">
+                            <img src="./files/nero.jpg">
+                        </div>
+                    </div>
+                    <div class="flex-logos">
+                        <div><img src="./files/chartjs_logo.png" alt="chart.js logo"></div>
+                        <div><img src="./files/bootstrap_logo.png" alt="bootstrap logo"></div>
+                        <div><img src="./files/sass_logo.png" alt="sass logo"></div>
+                        <div><img src="./files/nodejs_logo.png" alt="node.js logo"></div>
+                        <div><img src="./files/expressjs_logo.png" alt="express.js logo"></div>
+                        <div><img src="./files/mongo_logo.png" alt="mongodb logo"></div>
+                        <div><img src="./files/mysql_logo.png" alt="mysql logo"></div>
+                        <div><img src="./files/react.png" alt="react logo"></div>
+                        <div><img src="./files/Redux.png" alt="redux logo"></div>
+                        <div><img src="./files/angular.png" alt="angular logo"></div>
+                      </div>
+                </div>
+                <div class="card work" id="about" style="display:none">
+                    <div class="all">
+                        <div class="project">
+                            <a href="https://foody-recipe.netlify.app/">
+                                <img src="./files/recipe.png" alt="project">
+                            </a>
+                        </div>
+                        <!-- <div class="blue project">
+                            <a href="https://oghenero-sigbenu.github.io/Creative-UI/" >
+                                <img src="./files/recipe.png" alt="project">
+                            </a>
+                                    <div class="overlay">
+                                        <p class="text">Creative UI</p>
+                                            <div class="btn-overlay">
+                                                <a href="https://oghenero-sigbenu.github.io/Creative-UI/" >
+                                                    <span>Website<br>>></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                        <div class="project">
+                            <img src="./files/travel.png" alt="project">
+                        </div>
+                        <div class="project">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="projects" style="display:none">
+                  <div class="contact">
+                      <p><i class="fas fa-phone"></i> 08130174027</p>
+                      <p><i class="fas fa-envelope"></i> Sigbenuoghenero@gmail.com</p>
+                      <p><a onMouseover="this.style.color='green';" onMouseout="this.style.color='blue'"
+                        href="mailto:sigbenuoghenero@gmail.com" class="email">Send a mail.</a></p>
+                  </div>
+                </div>
+                <ul class="socials">
+                    <li>
+                        <a href="https://www.linkedin.com/in/sigbenu-oghenero-85092178/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ogsigbenu" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Oghenero-Sigbenu" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>
