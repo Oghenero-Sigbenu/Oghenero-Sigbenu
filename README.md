@@ -1,5 +1,2 @@
 ### Hi there 👋
-
-
-Here is the url to view the page:
-https://oghenero-sigbenu.github.io/Oghenero-Sigbenu/
+ A personal website built using HTML, CSS and JavaScript
